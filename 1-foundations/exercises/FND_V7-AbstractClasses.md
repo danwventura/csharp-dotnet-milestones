@@ -46,10 +46,9 @@ and Osteichthyes all inherit from FishType.
                FishTypeCommonName=fishtypes.Agnathan.ToString(),
             };
 ```
-
 Output the set properties
 
 ```
  hagfish.LongDescription = hagfish.GetLongDescription();
-            Console.Write("Common Name is " + hagfish.CommonName);
+ Console.Write("Common Name is " + hagfish.CommonName);
 ```
