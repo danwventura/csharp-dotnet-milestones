@@ -16,7 +16,6 @@ classes can implement only one abstract class but can also inherit from more tha
 * An abstract class of FishType can be implemented by one the class called Agnatha. There are three main fish types so Agnatha, Chrondrichthyes,
 and Osteichthyes all inherit from FishType.
 ```
-
     class Agnatha : FishType, IFishSpecies, IHabitat
     {
         public int AverageLifeSpan { get; set; }
@@ -26,7 +25,8 @@ and Osteichthyes all inherit from FishType.
         
          class Hagfish: Agnatha
     {
-```Create a new Hagfish Object
+``
+Create a new Hagfish Object
 ```
          Agnatha hagFish = new Agnatha
             {
@@ -45,10 +45,8 @@ and Osteichthyes all inherit from FishType.
                 },
                FishTypeCommonName=fishtypes.Agnathan.ToString(),
             };
-```
-Output the set properties
 
-```
+
  hagfish.LongDescription = hagfish.GetLongDescription();
  Console.Write("Common Name is " + hagfish.CommonName);
 ```
