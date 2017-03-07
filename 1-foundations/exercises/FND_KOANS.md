@@ -1,6 +1,6 @@
 ## DotNetKoans Exercise
-This exercise walks you through major concepts in C# and dotnet while introducing you to basic testing by  having you complete small steps on your way to "enlightenment."  Nobody likes this exersize, but it is an important step in leaning a new language.  
-Koans are a series of puzzels designed to teach the contructs of the language.  Some people understand the structure of the koans faster than others. If you don't understand ask for help.  The main point is that you learn the basic rules of the language and not just go through and get the answers correct.  These will be a reference as you continue to learn C#.
+This exercise walks you through major concepts in C# and dotnet while introducing you to basic testing by having you complete small steps on your way to "enlightenment."  Nobody likes this exercise, but it is an important step in learning a new language.  
+Koans are a series of puzzles designed to teach the contructs of the language.  Some people understand the structure of the koans faster than others. If you don't understand ask for help!  The main point is that you learn the basic rules of the language and not just go through and get the answers correct.  These will be a good reference as you continue to learn C#.
 
 ###Getting Started
 * Fork the github project from: https://github.com/CoryFoy/DotNetKoans
